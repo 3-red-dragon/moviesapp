@@ -1,0 +1,27 @@
+.seats {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ 
+  .box {
+    width: 500px;
+    height: 70px;
+    border: solid 5px rgb(236, 235, 235);
+    border-color: rgb(252, 247, 247) transparent transparent transparent;
+    border-radius:10%/75px 75px 0 0;
+    margin-top: 20px;
+  }
+  .line > hr {
+    height: 1px;
+    border: 0;
+  }
+  .seat_price{
+    color: rgb(182, 182, 182);
+    font-size:15px;
+    margin-bottom: 20px;
+  }
+   
